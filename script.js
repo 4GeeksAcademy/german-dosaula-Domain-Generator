@@ -39,7 +39,7 @@ function generateDomains() {
     resultDiv.innerHTML = '';
     
     
-    const limit = 50; 
+    const limit = 10; 
     const limitedDomains = DomainName.slice(0, limit);
     
     limitedDomains.forEach(domain => {
