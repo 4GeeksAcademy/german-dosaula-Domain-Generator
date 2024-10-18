@@ -46,3 +46,6 @@ function generateDomains() {
         resultDiv.innerHTML += domain + '<br>';
     });
 }
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.getElementById('generateButton').addEventListener('click', generateDomains);
+});
