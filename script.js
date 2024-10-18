@@ -13,10 +13,13 @@ function DomainGenerator(pronoun, adj, noun, extension) {
         for (let a of adj) {
             for (let n of noun) {
                 for (let e of extension) {
+                    
                     Domain.push(p + a + n + e);
                     
-                    let ext = e.slice(1);
+                    
+                    let ext = e.slice(1); 
                     if (n.toLowerCase().endsWith(ext)) {
+                        
                         let domainHack = p + a + n.slice(0, n.length - ext.length) + "." + ext;
                         Domain.push(domainHack);
                     }
@@ -32,11 +35,13 @@ function generateDomains() {
     const DomainName = DomainGenerator(pronoun, adj, noun, extension);
     const resultDiv = document.getElementById('result');
     
+    
     resultDiv.innerHTML = '';
-
-    const limit = 10;
+    
+    
+    const limit = 50; 
     const limitedDomains = DomainName.slice(0, limit);
-
+    
     limitedDomains.forEach(domain => {
         resultDiv.innerHTML += domain + '<br>';
     });
