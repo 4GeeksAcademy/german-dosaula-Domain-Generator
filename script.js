@@ -33,7 +33,11 @@ function generateDomains() {
     const resultDiv = document.getElementById('result');
     
     resultDiv.innerHTML = '';
-    
-    DomainName.forEach(domain => {
+
+    const limit = 10;
+    const limitedDomains = DomainName.slice(0, limit);
+
+    limitedDomains.forEach(domain => {
         resultDiv.innerHTML += domain + '<br>';
     });
+}
