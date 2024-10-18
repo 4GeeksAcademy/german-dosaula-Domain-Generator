@@ -1,4 +1,4 @@
-let pronoun = ["the", "our", "my", "your", "their", "a", "some", "his", "her", "its"];
+let pronoun = ["the", "our", "my", "your", "a", "his", "her", "its"];
 let adj = ["wild", "dangerous", "brutal", "hostile", "desolate", "violent", "unforgiving"];
 let noun = [
     "Grub", "Naked", "Hazzy", "Boom", "Doomed", "Oil", 
