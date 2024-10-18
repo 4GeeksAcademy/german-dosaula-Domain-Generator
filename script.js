@@ -1,8 +1,8 @@
 let pronoun = ["the", "our", "my", "your", "a", "his", "her", "its"];
 let adj = ["wild", "dangerous", "brutal", "hostile", "desolate", "violent", "unforgiving"];
 let noun = [
-    "Grub", "Naked", "Hazzy", "Boom", "Doomed", "Oil", 
-    "FullHQ", "Scrappy", "Sulfur", "AK47", "Bandit", "Outpost"
+    "grub", "naked", "hazzy", "boom", "doomed", "oil", 
+    "fullHQ", "scrappy", "sulfur", "ak47", "bandit", "outpost"
 ];
 let extension = [".com", ".net", ".org", ".io", ".gg", ".tv", ".es", ".uk", ".us", ".eu", ".ru", ".it"];
 
